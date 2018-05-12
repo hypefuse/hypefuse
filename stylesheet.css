@@ -1,16 +1,25 @@
-html {
+* {
 	margin: 0;
 	padding: 0;
-	width: 100%;
 }
 
-body {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	text-align: center;
-	background: url(storage/img/background.png);
-	background-size: cover;
-	height: 100vh;
-	display: table;
+html, body {
+	height: 100%;
+}
+
+#wrapper {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 100px;
+}
+
+#footer {
+	background-color: #000;
+	position: relative;
+	height: 100px;
+	margin-top: -100px;
+	clear: both;
 }
