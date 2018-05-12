@@ -3,19 +3,6 @@
     <head>
     	<link rel="shortcut icon" href="storage/favicon.ico">
     	<link rel="icon" href="storage/favicon.ico">
-    	<script> 
-		$path = $directory . DS;
-		$dirs = array( $path, JPATH_BASE . DS );
-		foreach ($dirs as $dir )
-		{
-			$icon =   $dir . 'favicon.ico';
-			if (file_exists( $icon ))
-			{
-				$path = str_replace( JPATH_BASE . DS, '', $dir );
-				$path = str_replace( '\\', '/', $path );
-				$this->addFavicon( JURI::base(true).'/'.$path . 'favicon.ico' );
-				break;''
-    	</script>
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta http-equiv="X-UA-Compatible" content="ie-edge">
