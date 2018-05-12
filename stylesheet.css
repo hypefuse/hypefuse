@@ -4,7 +4,11 @@
 }
 
 html, body {
-	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	background-color: #000E1C;
 }
 
 #wrapper {
@@ -17,9 +21,39 @@ html, body {
 }
 
 #footer {
-	background-color: #000;
-	position: relative;
-	height: 100px;
-	margin-top: -100px;
-	clear: both;
+	background: #001E30;
+	padding: 30px 10px;
+	margin-top: 10px;
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#media {
+	list-style: none;
+	margin: 10px 5;
+	display: inline-block;
+	font-size: 35px;
+	padding: 5px 9px;
+	transition: .5s; 
+}
+
+.media {	
+	position: absolute;
+	top: -30%;
+	left: 50%;
+	transform: translate(-50%, -35%);
+	display: table;
+
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #FFFB59;
+	transition: .5s;
 }
