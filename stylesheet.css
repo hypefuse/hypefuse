@@ -1,0 +1,16 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	background: url(storage/img/background.png);
+	background-size: cover;
+	height: 100vh;
+	display: table;
+}
